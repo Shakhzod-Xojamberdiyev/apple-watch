@@ -1,0 +1,314 @@
+:root{
+    --white:#fff;
+    
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.eot');
+    src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'), 
+    
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.eot'); 
+    src: url('../fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-700.woff') format('woff'), 
+}
+body{
+    font-family: "Roboto" , "Arial" , sans-serif;
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+/* start header */
+.site-header{
+    padding-top: 30px;
+    
+}
+.aplle-box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.header-list{
+    display: flex;
+    margin-right: 15px;
+    
+}
+.header-list-start{
+    margin-right: 30px;
+    list-style: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+.header-list-start:hover{
+    width: 100%;
+    border-bottom: 3px solid #333333;
+    opacity: 0.6;
+}
+.header-list-a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    
+    color: #333333;
+    
+}
+.form{
+    border: none; 
+}
+.form-a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+    border: none;
+    border-bottom:1px solid #333333 ;
+    width: 170px;
+    
+    transform: rotate(0.16deg);
+    
+}
+/* start hero-section */
+
+.hero-section{
+  
+    
+    background-image: url("../images/apple-watch.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: calc(50% + 629px)  calc(50% - -30px);
+    top: 70px;
+    border-bottom:  2px solid #DDDDDD;
+    
+}
+.apple-watch-text{
+    padding-bottom: 185px;
+    padding-top: 113px;
+    width: 490px;
+}
+.apple-main-text{
+    margin-bottom: 30px;
+    width: 355px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+    
+}
+.aplle-about-text{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+    
+}
+.keynote{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding: 12px 38px;
+    background:  #EA625C;;
+    
+}
+.keynote:hover{
+    
+    background: #C9514C;
+    
+}
+.info-section{
+    margin-top: 68px;
+    margin-bottom: 160px;
+    
+}
+.info-wrapper{
+    
+}
+.info-list{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info-text{
+    list-style: none;
+    
+}
+.info-main-text{
+    width: 290px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    
+    color: #222222;
+    
+}
+.info-next-text{
+    width: 280px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+}
+.kvadrat{
+    
+}
+.kvadrat-box{
+    margin-right: 10px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #DDDDDD;
+    
+}
+.a{
+    
+}
+.learn{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    
+    color: #EA625C;
+    
+    
+}
+.learn::before{
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    width: 40px;
+    border: 1px solid #EA625C;
+    transition: 0.5s;
+}
+.learn:hover::before{
+    
+    width: 60px;
+}
+.nike{
+    
+}
+.nike-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nike-watch-text{
+    width: 490px;
+    margin-top: 60px;
+    
+}
+.nike-main-text{
+    width: 411px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+.buy{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    padding: 12px 90px;
+    background:  #EA625C;;
+    
+}
+.buy:hover{
+    
+    background: #C9514C;
+    
+}
+.hand-image{
+    margin-bottom: 70px;
+
+}
+.runners{
+    height: 100%;
+    background-image: url("../images/runners1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   padding: 240px 0;
+
+
+
+}
+.runners-watch-text{
+    margin-left: 635px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+
+  
+}
+.runners-main-text{
+   
+    
+    width: 490px;
+    font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #FFFFFF;
+
+}
+.runners-about-text{
+    margin-bottom: 30px;
+    width: 450px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+}
+.runners-a{
+
+}
+
